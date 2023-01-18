@@ -8,6 +8,8 @@
 
 -   pagination support
 
+-   full text search
+
 ## Tech Stack
 
 **Server:** Node, Express, Typescript, PostgreSQL, Graphql
@@ -30,7 +32,7 @@
 
 -   `yarn install`
 
--   Create a postgres database - linkit
+-   Create a postgres database - youtubeapi
 
 -   To create tables and schema on the database
 
@@ -44,6 +46,12 @@
 
 -   server fetches the youtube api in the background every 10 sec
 
+    ![terminal_output](https://github.com/tejaswankalluri/medbikri-interview-assignment/blob/main/images/server%20output.png?raw=true)
+
 -   access the graphql api from localhost:3000/graphql
 
+    ![output](https://github.com/tejaswankalluri/medbikri-interview-assignment/blob/main/images/access%20api%20graphql.png?raw=true)
+
 -   Database screenshot
+
+    ![db](https://github.com/tejaswankalluri/medbikri-interview-assignment/blob/main/images/db.png?raw=true)
